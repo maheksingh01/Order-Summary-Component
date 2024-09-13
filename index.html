@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Order summary card</title>
+    <link rel="stylesheet" href="clear.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="background">
+      <article class="card">
+        <header class="header-card">
+          <img src="./images/illustration-hero.svg" alt="hero image" />
+        </header>
+        <div class="card__text">
+          <h1 class="card__headline">Order Summary</h1>
+
+          <p class="card__paragraph">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+        </div>
+
+        <div class="card-wrapper__subscription flex">
+          <img
+            class="card-icon__subcsription"
+            src="./images/icon-music.svg"
+            alt="icon music"
+          />
+          <div class="card-text__subscription">
+            <h2 class="card-headline__subscription">Annual Plan</h2>
+            <p class="card-paragraph__subscription">$59.99/year</p>
+          </div>
+
+          <a class="card-subcription__button">Change</a>
+        </div>
+
+        <footer class="card-footer flex">
+          <button class="button button--blue">Proceed to Payment</button>
+          <button class="button button--white">Cancel Order</button>
+        </footer>
+      </article>
+    </main>
+  </body>
+</html>
